@@ -1,0 +1,15 @@
+svg.icon {
+  width: 1.5em; height: 1.5em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/*
+请务必在_config.butterfly.yml文件该位置引入该样式表，才能使样式生效
+inject:
+  head:
+  - <link rel="stylesheet" href="/css/icon.css" media="defer" onload="this.media='all'">
+*/
+
